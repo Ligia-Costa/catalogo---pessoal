@@ -1,79 +1,84 @@
-import React from 'react';
-import { View, Text, StyleSheet, FlatList } from 'react-native';
-import catalogoData from '../catalogo.json'; 
+import React from "react";
+import { View, Text, StyleSheet, FlatList, Image } from "react-native";
+import catalogo from "../catalogo.json";
 
-// Definição do modelo json
-interface Santo {
-  id: number;
-  titulo: string;
-  subtitulo: string;
-  ano: number;
-  data: number;
-}
-
-const CatalogoScreen: React.FC = () => {
+export default function CatalogoScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.tituloPrincipal}>Meu Catálogo de Santos</Text>
+      <Text style={styles.tituloPrincipal}>Santos da Igreja Católica</Text>
+
       <FlatList
-        data={catalogoData as Santo[]}
+        data={catalogo}
         keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => (
           <View style={styles.card}>
-            <Text style={styles.cardTitulo}>{item.titulo}</Text>
-            <Text style={styles.cardSubtitulo}>{item.subtitulo}</Text>
-            <Text style={styles.cardAno}>Nascimento: {item.ano}</Text>
-            <Text style={styles.cardAno}>Falecimento: {item.data}</Text>
+            <Image source={{ uri: item.imagem }} style={styles.imagem} />
+            <View style={styles.info}>
+              <Text style={styles.titulo}>{item.titulo}</Text>
+              <Text style={styles.subtitulo}>{item.subtitulo}</Text>
+              <Text style={styles.ano}>Ano de nascimento: {item.ano}</Text>
+              <Text style={styles.descricao}>{item.descricao}</Text>
+            </View>
           </View>
         )}
       />
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#E2BE8B', // fundo
-    paddingTop: 50, // Espaçamento superior para não colidir com a barra de status
-    paddingHorizontal: 20,
+    backgroundColor: "#FFF8E1", 
+    padding: 16,
   },
   tituloPrincipal: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: '#000000ff',
-    marginBottom: 25,
-    textAlign: 'center',
+    fontSize: 26,
+    fontWeight: "bold",
+    color: "#6B4F31", 
+    marginBottom: 20,
+    textAlign: "center",
   },
   card: {
-    backgroundColor: '#fff',
-    borderRadius: 10,
-    padding: 20,
-    marginBottom: 15,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
+    backgroundColor: "#F1E2B8", 
+    borderRadius: 12,
+    padding: 12,
+    marginBottom: 16,
+    alignItems: "center",
+    shadowColor: "#000",
     shadowOpacity: 0.1,
-    shadowRadius: 8,
-    elevation: 5,
-    borderLeftWidth: 5,
-    borderLeftColor: '#ffcaa1ff', 
+    shadowOffset: { width: 0, height: 2 },
+    shadowRadius: 4,
+    elevation: 4,
   },
-  cardTitulo: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: '#694b31ff',
-    marginBottom: 5,
-  },
-  cardSubtitulo: {
-    fontSize: 16,
-    color: '#7f8c8d',
+  imagem: {
+    width: 150,
+    height: 150,
+    borderRadius: 12,
     marginBottom: 10,
   },
-  cardAno: {
+  info: {
+    alignItems: "center",
+  },
+  titulo: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#6B4F31",
+  },
+  subtitulo: {
     fontSize: 14,
-    color: '#95a5a6',
-    fontStyle: 'italic',
+    fontStyle: "italic",
+    color: "#C49A6C",
+    marginBottom: 4,
+  },
+  ano: {
+    fontSize: 12,
+    color: "#444",
+    marginBottom: 6,
+  },
+  descricao: {
+    fontSize: 14,
+    textAlign: "center",
+    color: "#333",
   },
 });
-
-export default CatalogoScreen;
