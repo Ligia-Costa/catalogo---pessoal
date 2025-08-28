@@ -1,7 +1,7 @@
-import CatalogoScreen from "@/components/CatalogoScreen";
+import CatalogoScreen from "../components/CatalogoScreen";
 
-const HomePage = () => {
-  return <CatalogoScreen />; 
-};
+export default function App() {
+  return <CatalogoScreen />;
+}
 
 export default HomePage;
