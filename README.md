@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+# 📖 Meu Catálogo Pessoal – Santos da Igreja Católica
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo simples desenvolvido em **React Native com Expo**, que exibe um catálogo de **Santos da Igreja Católica** em formato de cards.  
+Cada card contém a **imagem**, **nome**, **informações principais** e uma **breve descrição** sobre a vida do santo.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Demonstração
 
+> A tela principal mostra uma lista de santos com suas imagens e descrições, estilizados em cards.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React Native"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" width="40" height="40" alt="JSON"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="40" height="40" alt="Expo/NPM"/>
+</div>
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+meu-catalogo/
+│── catalogo.json          # Dados do catálogo (id, título, subtítulo, ano, imagem, descrição)
+│── app/
+│   └── index.tsx          # Arquivo principal que chama a tela CatalogoScreen
+│── components/
+│   └── CatalogoScreen.tsx # Tela principal do catálogo (renderização e estilização)
+```
+
+---
+
+## ⚙️ Como Executar o Projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/meu-catalogo.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd meu-catalogo
+   ```
+3. Instale as dependências:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+4. Inicie o servidor Expo:
    ```bash
    npx expo start
    ```
+5. Abra no **Expo Go** (Android/iOS) ou rode em um **emulador**.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ✨ Funcionalidades
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- 📸 Exibição de **imagem do santo**  
+- 📝 Informações principais (nome, subtítulo, ano de nascimento e descrição)  
+- 🎨 Estilização com **Flexbox e StyleSheet**  
+- 📂 Dados vindos de um arquivo **JSON externo**  
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🎨 Paleta de Cores Utilizada
 
-```bash
-npm run reset-project
-```
+- Creme claro: `#FFF8E1`  
+- Bege suave: `#F1E2B8`  
+- Dourado suave: `#FFD700`  
+- Caramelo: `#C49A6C`  
+- Marrom suave: `#6B4F31`  
+- Cinza claro: `#D1D1D6`  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📜 Licença
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Este projeto é apenas para fins educacionais.  
+Inspirado no aprendizado de **React Native com Expo**.  
