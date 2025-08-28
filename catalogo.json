@@ -4,31 +4,39 @@
     "titulo": "São Francisco de Assis",
     "subtitulo": "Padroeiro dos animais e da ecologia",
     "ano": 1181,
-    "data":  1230
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/7/7e/StFrancis.jpg",
+    "descricao": "Fundador da Ordem Franciscana, viveu em pobreza e amor à natureza."
   },
   {
     "id": 2,
-    "titulo": "Santa Clara de Assis",
-    "subtitulo": "Fundadora da Ordem das Clarissas",
-    "ano": 1194,
-    "data": 1222
+    "titulo": "Santa Teresa de Calcutá",
+    "subtitulo": "Fundadora das Missionárias da Caridade",
+    "ano": 1910,
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/0/0e/MotherTeresa_1.jpg",
+    "descricao": "Dedicou sua vida aos mais pobres e doentes em Calcutá."
   },
   {
     "id": 3,
-    "titulo": "Santo Antônio de Pádua",
-    "subtitulo": "Santo casamenteiro e padroeiro das causas perdidas",
-    "ano": 1195
+    "titulo": "São João Paulo II",
+    "subtitulo": "Papa missionário",
+    "ano": 1920,
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/5/51/John_Paul_II_in_Brazil_1997_2.jpg",
+    "descricao": "Um dos papas mais influentes do século XX, promoveu a paz e a juventude."
   },
   {
     "id": 4,
     "titulo": "Santa Teresinha do Menino Jesus",
-    "subtitulo": "Doutora da Igreja, padroeira das missões",
-    "ano": 1873
+    "subtitulo": "Padroeira das Missões",
+    "ano": 1873,
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sainte_Th%C3%A9r%C3%A8se_de_l%27Enfant_J%C3%A9sus.jpg",
+    "descricao": "Vivendo na simplicidade, ensinou o 'pequeno caminho' da santidade."
   },
   {
     "id": 5,
-    "titulo": "São João Paulo II",
-    "subtitulo": "Papa e defensor da dignidade humana",
-    "ano": 1920
+    "titulo": "Santo Antônio de Pádua",
+    "subtitulo": "Doutor da Igreja",
+    "ano": 1195,
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/e/e9/St_Anthony_Padua.jpg",
+    "descricao": "Pregador franciscano conhecido pelos milagres e devoção popular."
   }
 ]
