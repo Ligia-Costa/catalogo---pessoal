@@ -22,10 +22,17 @@ export default function CatalogoScreen() {
   // Constante para definir o número de colunas com base na largura da tela
   const getNumColumns = () => {
     if (width >= 900) {
+<<<<<<< HEAD
+      return 4; // Telas grandes (computadores)
+    }
+    if (width >= 600) {
+      return 2; // Telas médias (tablets)
+=======
       return 4; // Telas grandes (tablets)
     }
     if (width >= 600) {
       return 2; // Telas médias (celular na horizontal)
+>>>>>>> 18407929aeb25770c3bdff47eaf236412ebe99fc
     }
     return 1; // Telas pequenas (celular na vertical)
   };
@@ -39,7 +46,11 @@ export default function CatalogoScreen() {
       backgroundColor: "#FFF8E1",
     },
     listContainer: {
+<<<<<<< HEAD
+        paddingHorizontal: 8,
+=======
         paddingHorizontal: 8, // Espaçamento nas laterais da lista
+>>>>>>> 18407929aeb25770c3bdff47eaf236412ebe99fc
     },
     tituloPrincipal: {
       fontSize: width * 0.07,
@@ -50,7 +61,10 @@ export default function CatalogoScreen() {
       paddingHorizontal: 16,
       color: "#6B4F31",
     },
+<<<<<<< HEAD
+=======
     // 2. Estilo do Card ajustado para o layout em grade
+>>>>>>> 18407929aeb25770c3bdff47eaf236412ebe99fc
     card: {
       flex: 1, // Permite que o card se expanda na coluna
       margin: 10, // Espaçamento entre os cards

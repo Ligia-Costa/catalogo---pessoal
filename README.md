@@ -7,7 +7,7 @@ Cada card contém a **imagem**, **nome**, **informações principais** e uma **b
 
 ## 📱 Demonstração
 
-> A tela principal mostra uma lista de santos com suas imagens e descrições, estilizados em cards.
+![alt text](assets/images/print.png)
 
 ---
 
