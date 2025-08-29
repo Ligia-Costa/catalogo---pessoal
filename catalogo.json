@@ -4,7 +4,7 @@
     "titulo": "São Francisco de Assis",
     "subtitulo": "Padroeiro dos animais e da ecologia",
     "ano": 1181,
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/7/7e/StFrancis.jpg",
+    "imagem": "saofran.jpg",
     "descricao": "Fundador da Ordem Franciscana, viveu em pobreza e amor à natureza."
   },
   {
@@ -12,7 +12,7 @@
     "titulo": "Santa Teresa de Calcutá",
     "subtitulo": "Fundadora das Missionárias da Caridade",
     "ano": 1910,
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/0/0e/MotherTeresa_1.jpg",
+    "imagem": "santateresa.jpg",
     "descricao": "Dedicou sua vida aos mais pobres e doentes em Calcutá."
   },
   {
@@ -20,7 +20,7 @@
     "titulo": "São João Paulo II",
     "subtitulo": "Papa missionário",
     "ano": 1920,
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/5/51/John_Paul_II_in_Brazil_1997_2.jpg",
+    "imagem": "saojoao.jpg",
     "descricao": "Um dos papas mais influentes do século XX, promoveu a paz e a juventude."
   },
   {
@@ -28,7 +28,7 @@
     "titulo": "Santa Teresinha do Menino Jesus",
     "subtitulo": "Padroeira das Missões",
     "ano": 1873,
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sainte_Th%C3%A9r%C3%A8se_de_l%27Enfant_J%C3%A9sus.jpg",
+    "imagem": "santateresinha.jpg",
     "descricao": "Vivendo na simplicidade, ensinou o 'pequeno caminho' da santidade."
   },
   {
@@ -36,7 +36,15 @@
     "titulo": "Santo Antônio de Pádua",
     "subtitulo": "Doutor da Igreja",
     "ano": 1195,
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/e/e9/St_Anthony_Padua.jpg",
+    "imagem": "santoantonio.jpg",
     "descricao": "Pregador franciscano conhecido pelos milagres e devoção popular."
+  },
+  {
+    "id": 6,
+    "titulo": "São Benedito",
+    "subtitulo": "Padroeiro dos cozinheiros",
+    "ano": 1524,
+    "imagem": "saobenedito.jpg",
+    "descricao": "Conhecido por sua generosidade e amor aos pobres."
   }
 ]
