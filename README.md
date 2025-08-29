@@ -39,7 +39,7 @@ meu-catalogo/
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/meu-catalogo.git
+   [git clone https://github.com/seu-usuario/meu-catalogo.git](https://github.com/Ligia-Costa/catalogo---pessoal.git)
    ```
 2. Acesse a pasta do projeto:
    ```bash
